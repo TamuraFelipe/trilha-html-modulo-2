@@ -6,14 +6,43 @@ body {
     display: flex;
     justify-content: center;
 }
-h1 {
+h1, h2 {
     color: rgb(222,94,0);
 }
 p {
     color: rgb(89,181,177);
 }
+fieldset {
+    border-color: #f1f1f1;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-bottom: 24px;
+}
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 16px;
+}
 table {
     min-width: 576px;
+}
+textarea {
+    width: 370px;
+    height: 100px;
+    resize: none;
+}
+button {
+    margin-top: 16px;
+    background: rgb(89,181,177);
+    padding: 8px 8px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .8;
 }
 table thead {
     background: rgb(222,94,0);
@@ -84,6 +113,15 @@ table tbody tr td:nth-child(1) {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    border-block: 1px solid #f1f1f1;
+}
+.endereco {
+    display: flex;
+    gap: 50px;
+    margin-top: 32px;
+}
+.endereco p {
+    color: #000;
 }
 .footer p {
     padding-block: 32px;
