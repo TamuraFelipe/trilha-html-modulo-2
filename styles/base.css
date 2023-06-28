@@ -51,6 +51,7 @@ table tbody tr td:nth-child(1) {
     width: 15%;
     background-color: rgb(255, 255, 255);
     padding: 10px 20px 0px;
+    border-right: 1px solid #f1f1f1;
 }
 .menu ul {
     padding: 0;
@@ -74,7 +75,7 @@ table tbody tr td:nth-child(1) {
     min-height: 150px;
 }
 .header img {
-    width: 100px;
+    width: 200px;
     display: block;
     margin-inline: auto;
     margin-block: 16px;
