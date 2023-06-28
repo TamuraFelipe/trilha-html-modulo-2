@@ -12,6 +12,29 @@ h1 {
 p {
     color: rgb(89,181,177);
 }
+table {
+    min-width: 576px;
+}
+table thead {
+    background: rgb(222,94,0);
+}
+table thead tr td {
+    text-align: center;
+    color: #fff;
+}
+table thead tr td:nth-child(1) {
+    text-align: left;
+}
+table tbody tr td {
+    text-align: center;
+}
+table tbody tr:nth-child(even) {
+    background: rgb(89,181,177);
+    color: #fff;
+}
+table tbody tr td:nth-child(1) {
+    text-align: left;
+}
 .wrapper {
     width: 1200px;
     display: flex;
